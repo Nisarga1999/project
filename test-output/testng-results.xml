@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[user navigated to loginpage]]>
+    </line>
+    <line>
+      <![CDATA[user login suceesfully]]>
+    </line>
+    <line>
+      <![CDATA[user clicked on task bar]]>
+    </line>
+    <line>
+      <![CDATA[user logout suceesfully]]>
+    </line>
+    <line>
+      <![CDATA[server close suceessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14052" started-at="2023-02-27T16:29:00 IST" finished-at="2023-02-27T16:29:14 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14052" started-at="2023-02-27T16:29:00 IST" finished-at="2023-02-27T16:29:14 IST">
+      <class name="testngPractice.Practice1">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testngPractice.Practice1@5bc79255]" name="launchBrowser" is-config="true" duration-ms="7036" started-at="2023-02-27T16:29:00 IST" finished-at="2023-02-27T16:29:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testngPractice.Practice1@5bc79255]" name="login" is-config="true" duration-ms="308" started-at="2023-02-27T16:29:07 IST" finished-at="2023-02-27T16:29:08 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[user navigated to loginpage]]>
+            </line>
+            <line>
+              <![CDATA[user login suceesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Tc_001()[pri:0, instance:testngPractice.Practice1@5bc79255]" name="Tc_001" duration-ms="4877" started-at="2023-02-27T16:29:08 IST" finished-at="2023-02-27T16:29:12 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[user clicked on task bar]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc_001 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testngPractice.Practice1@5bc79255]" name="logout" is-config="true" duration-ms="1139" started-at="2023-02-27T16:29:12 IST" finished-at="2023-02-27T16:29:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[user logout suceesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tareBrowse()[pri:0, instance:testngPractice.Practice1@5bc79255]" name="tareBrowse" is-config="true" duration-ms="661" started-at="2023-02-27T16:29:14 IST" finished-at="2023-02-27T16:29:14 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[server close suceessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tareBrowse -->
+      </class> <!-- testngPractice.Practice1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
